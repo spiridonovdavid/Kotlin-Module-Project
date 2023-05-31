@@ -3,7 +3,7 @@ fun main() {
     val menu = Menu(mutableListOf<MenuOption>())
 
     println("Добро пожаловать в приложение")
-    println("*****************")
+    println("")
 
     menu.addOption("Добавить архив заметок") { listOfArchives.addArchive() }
     menu.addOption("Показать архивы заметок") { listOfArchives.viewArchives() }
