@@ -23,7 +23,7 @@ class ListOfArchives {
             for (archive in archivesList) {
                 println(archive.name)
             }
-            println("**************************")
+            println("********************")
         }
     }
 
